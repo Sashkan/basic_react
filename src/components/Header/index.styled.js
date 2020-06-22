@@ -7,15 +7,15 @@ const StyledHeader = styled.div`
   ul {
     list-style-type: none;
   }
+    a {
+      color: #333;
+      text-decoration: none;
+    }
 
   .headerLink {
     border: 1px solid #222;
     padding: 10px;
     border-radius: 7px;
-    a {
-      color: #333;
-      text-decoration: none;
-    }
   }
 
   a {

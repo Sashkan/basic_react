@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <StyledHeader>
-      <div className='headerLink'><Link to="/users">Users</Link></div>
+      <Link to="/users">
+        <div className='headerLink'>Users</div>
+      </Link>
     </StyledHeader>
   )
 }
