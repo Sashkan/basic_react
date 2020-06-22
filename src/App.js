@@ -7,18 +7,13 @@ import {
 } from "react-router-dom";
 import UsersPage from "./pages/Users";
 import UserPage from "./pages/User";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+        <Header />
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
